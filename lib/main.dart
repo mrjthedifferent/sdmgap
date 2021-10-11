@@ -29,8 +29,18 @@ class MyHomePage extends StatelessWidget {
       appBar: AppBar(
         title: const Text("My First App "),
       ),
-      body: const Center(
-        child: Text("Hello World"),
+      body: Center(
+        child: Column(
+          children: [
+            Text(
+              "Md Mahfuzur Rahman",
+              style: TextStyle(
+                  color: Colors.red, fontSize: 25, fontWeight: FontWeight.bold),
+            ),
+            Text("Trainer"),
+            Text("SDMGA Project"),
+          ],
+        ),
       ),
     );
   }
